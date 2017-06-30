@@ -19,7 +19,6 @@
 
 		@yield('body-content')
 
-
 		@include('site.templates.footer')
 
 		<!--  Scripts-->
@@ -28,26 +27,6 @@
 		<script src="{{ asset('plugins/materialize/js/init.js') }}"></script>
 		<script src="{{ asset('js/home.js') }}"></script>
 		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyByvtwqkD692H3-KFxtpZMwoFH5SlNAsqQ&callback=myMap"></script>
-
-
-		<script>
-            $(document).ready(function () {
-                $('.slider').slider({		
-                	full_width: true,
-                	height: 400,
-                	indicators: true,
-                	interval: 10000
-            	});
-
-				$('.next').click(function() {
-				 $('.slider').slider('next');
-				});
-				$('.prev').click(function() {
-				 $('.slider').slider('prev');
-				});
-
-            });
-        </script>    
 
 	</body>
 </html>
