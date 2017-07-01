@@ -19,7 +19,7 @@
     </div>
 </div>
 
-<div class="gray lighten-1" style=" padding: 5%">
+<div class="grey lighten-4" style=" padding: 5%">
   <h4 style="color: gray">ASESORÍA INSTANTANEA SÓLO PARA TI</h4>
   <p style="color: gray">Llamanos y platicanos de tus necesidades</p>
   <a class="waves-effect waves-light w3-border w3-padding-large" href="#modal1" style="color:gray">
@@ -55,28 +55,65 @@
   </div>
 </div>
 
-<div class="section w3-padding" style="background-color: #305c9e">
+<div class="section w3-padding-48" style="background-color: #305c9e">
   <h3 class="letra center condensed"><b>SERVICIOS ESPECIALIZADOS</b></h3>
-  <div class="w3-row-padding">
-    <div class="w3-col s12 m4 w3-panel center">
-      <img src="{{ asset('img/home/iconos/asesoria.png') }}" class="" style="width: 40%">
-      <h4 style="color: white; text-align:left">Desarrollo y asesoría de nuevos proyectos</h4>
-      <span class="white-text w3-justify">Los nuevos proyectos necesitan expertos que los lleven de la mano, te asesoramos paso a paso</span>
+  <div class="row">
+    <div class="col s12 m2 offset-m3 center">
+      <img src="{{ asset('img/home/iconos/asesoria.png') }}" class="" style="width: 80%">
+      <h5 style="color: white; text-align:left">Desarrollo y asesoría de nuevos proyectos</h5>
+      <p class="white-text" style="text-align: justify;">Los nuevos proyectos necesitan expertos que los lleven de la mano, te asesoramos paso a paso.</p>
+      <a class="w3-btn w3-block waves-effect waves-light letra" href="#modal1" style="">
+        AGENDAR ASESORÍA
+      </a>
     </div>
-      <div class="w3-col s12 m4 w3-panel center">
-        <img src="{{ asset('img/home/iconos/manejo.png') }}" alt="" style="width: 40%">
-        <h4 style="color: white; text-align:left">Asesoría y manejo de refacciones</h4>
-        <span class="white w3-justify"></span>
-      </div>
-        <div class="w3-col s12 m4 w3-panel center">
-          <img src="{{ asset('img/home/iconos/refaccion.png') }}" alt="" style="width: 40%">
-          <h4 style="color: white; text-align:left">Refacciones Industriales</h4>
-          <span class="white w3-justify"></span>
-        </div>
+    <div class="col s12 m2 center">
+      <img src="{{ asset('img/home/iconos/manejo.png') }}" alt="" style="width: 80%">
+      <h5 style="color: white; text-align:left">Asesoría y manejo de refacciones</h5>
+      <p class="white-text" style="text-align: justify;">Aprende a darle el mayor rendimiento y calidad de vida a tu inversión, estamos para guìarte.</p>
+      <a class="w3-btn w3-block waves-effect waves-light letra" href="#modal1" style="">
+        COMENZAR
+      </a>
+    </div>
+    <div class="col s12 m2 center">
+      <img src="{{ asset('img/home/iconos/refaccion.png') }}" alt="" style="width: 80%">
+      <h5 style="color: white; text-align:left">Refacciones Industriales</h5>
+      <p class="white-text" style="text-align: justify;">Diseñamos a la medida de tu maquinaria, detectando especificaciones y requerimientos únicos de la pieza.</p>
+      <a class="w3-btn w3-block waves-effect waves-light letra" href="#modal1" style="">
+        AGENDAR CITA
+      </a>
+    </div>
   </div>
 </div>
 
-<div class="white" style="height: 200px">
 
+<div class="hide-on-med-and-down">
+  <div class="w3-row">
+    <div class="w3-half">
+      <div id="googleMap" class="" style="width:100%; height: 500px"></div>
+    </div>
+    <div class="w3-half" style="padding: 50px">
+      <div class="w3-container w3-padding">        
+        <h5 class="left grey-text w3-padding">UBICANOS Y CONTACTANOS</h5>
+      </div>
+      <form class="w3-container">
+        <div class="w3-row-padding">
+          <div class="w3-half">
+            <input class="w3-input w3-border w3-light-grey" type="text" placeholder="Nombre / Empresa">
+          </div>
+          <div class="w3-half">
+            <input class="w3-input w3-border w3-light-grey" type="text" placeholder="Correo">
+          </div>
+        </div>
+        <div class="w3-padding">
+          <textarea class="w3-input w3-border w3-light-grey w3-padding-large" placeholder="Mensaje" style="height: 150px"></textarea>
+        </div>
+        <div class="w3-row-padding w3-padding-16">
+          <div class="w3-half">
+          <button class="w3-btn w3-block" style="background-color: #365593; color: white;">Enviar</button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
 </div>
 @endsection

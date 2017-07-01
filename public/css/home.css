@@ -55,6 +55,10 @@ nav .brand-logo {
 	color: #efb35b;
 }
 
+a.letra{
+	border: 3px solid #efb35b;
+}
+
 .boton{
 	background-color: #365593;
 }

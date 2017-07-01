@@ -3,7 +3,7 @@
 	<head>
 	  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
 	  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
-	  <title>World Trade Center</title>
+	  <title>Refel</title>
 
 	  <!-- CSS  -->
 	  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -27,6 +27,5 @@
 		<script src="{{ asset('plugins/materialize/js/init.js') }}"></script>
 		<script src="{{ asset('js/home.js') }}"></script>
 		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyByvtwqkD692H3-KFxtpZMwoFH5SlNAsqQ&callback=myMap"></script>
-
 	</body>
 </html>

@@ -3,7 +3,7 @@
   myCenter=new google.maps.LatLng(20.684287, -100.434912);
   var mapOptions= {
     center:myCenter,
-    zoom:18, scrollwheel: false, draggable: false,
+    zoom:13, scrollwheel: false, draggable: false,
     mapTypeId:google.maps.MapTypeId.ROADMAP
   };
   var map=new google.maps.Map(document.getElementById("googleMap"),mapOptions);
